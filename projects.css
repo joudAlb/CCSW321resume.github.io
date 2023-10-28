@@ -1,0 +1,117 @@
+@media (max-width: 992px) {
+    #sidebar {
+        display: none;
+    }
+
+    .container-fluid {
+        padding-left: 0;
+    }
+
+    .col-md-9 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    header img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 576px) {
+    header img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    background-color: #333;
+    border: none;
+}
+.navbar-brand {
+    color: #fff;
+    font-size: 2rem;
+}
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+.navbar-nav .nav-link, .navbar-brand {
+    color: #fff !important;
+    font-size: 1.2rem;
+    margin: 10px;
+}
+.navbar-nav .nav-link:hover {
+    color: #007BFF;
+}
+.py-5 {
+    padding: 5rem 0;
+}
+
+.card-deck {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd; /* Add border */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-body {
+    padding: 1rem;
+}
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.card-text {
+    font-size: 1.2rem;
+}
+.card-footer {
+    background-color: #fff;
+    border: none;
+}
+.btn-primary {
+    background-color: #007BFF;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.project {
+    background-color: #fff;
+    border: 1px solid #ddd; /* Add border */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    padding: 20px;
+    margin: 20px 0;
+}
+.project:hover {
+    transform: translateY(-5px);
+}
+
+footer {
+    text-align: center;
+    background: linear-gradient(135deg, #2b5876, #4e4376);
+    color: #fff;
+    padding: 1rem;
+}
